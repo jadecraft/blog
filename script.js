@@ -7,7 +7,7 @@ document.querySelectorAll('.navbar a').forEach(link => {
   }
 });
 
-// Smooth scrolling for anchor links (if you have any anchors on your pages)
+// Smooth scrolling for anchor links 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -31,7 +31,7 @@ images.forEach(image => {
     const img = document.createElement('img');
     img.src = image.src;
 
-    // Clear any existing content and add new image
+    e
     while (lightbox.firstChild) {
       lightbox.removeChild(lightbox.firstChild);
     }
